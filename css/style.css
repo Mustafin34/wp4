@@ -1,0 +1,83 @@
+.videoCard {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    line-height: 30px;
+    max-width: 865px;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 27px -7px rgb(34 60 80 / 20%);
+    align-items: flex-start;
+    gap: 15px;
+}
+.videoCard {
+    width: 100%;
+    margin:  20px 0;
+}
+.videoCard__name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.videoCard__photo {
+    width: 240px;
+    height: 210px;
+    overflow: hidden;
+    position: relative;
+}
+.videoCard__photo img {
+    max-width: 100%;
+}
+.videoCard__info {
+    font-size: 14px;
+}
+.stats__value,
+.special {
+    font-weight: bold;
+    color: #76BD1D;
+}
+.videoCard__special span {
+    display: block;
+}
+.videoCard__info-stats {
+    margin: 15px 0;
+}
+.stats__name {
+    width: 60%;
+    display: inline-block;
+    float: left;
+}
+.videoCard__info-discription {
+    margin-top: 10px;
+}
+.new__videoCard {
+    font-size: 14px;
+}
+.new__videoCard-item {
+    width: 100%;
+}
+.new__videoCard-label {
+    display: block;
+    margin: 5px 0;
+}
+.new__videoCard-input {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.new__videoCard-textarea {
+    width: 100%;
+    height: 110px;
+    resize: none;
+    padding: 5px;
+}
+#save__videoCard {
+    align-self: flex-end;
+    margin-left: auto;
+}
+.df {
+    display: flex;
+}
+.new__text {
+    overflow: hidden;
+}
